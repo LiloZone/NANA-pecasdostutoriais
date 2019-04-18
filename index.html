@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Embracing Memoir</title>
+        
+        <link rel="icon" href="img/favicon.png" type="image/x-icon">
+        
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/nana.css" id="theme">
+        <link rel="stylesheet" href="css/framework.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+        
+<!--        <link href="css/style.css" rel="stylesheet" />-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>   
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="#ffaf96">
+					<section>
+                        <img src="img/Nana_Logo.png" class="width300">
+                        <p class="font_second uppercase font42 black">
+                            Peças do<br>Tutorial
+                        </p>
+				    </section>
+                    
+                    <section data-background="img/A.Luva_baixa.gif">
+                        <h3 class="font_first text_center pink">Luvas para Bike</h3>
+                    </section>
+                    
+                    <section data-background="img/B.Colar_baixa.gif">
+                        <h3 class="font_first text_center pink">Colar com LEDs</h3>
+                    </section>
+                    
+                    <section data-background="img/F.Mascara.gif">
+                        <h3 class="font_first text_center pink">Máscara com motor que gira</h3>
+                    </section>
+                    
+                    <section data-background="img/C.Blusa_baixa.gif">
+                        <h3 class="font_first text_center pink">Camiseta com LEDs</h3>
+                    </section>
+                    
+                    <section data-background-video="videos/Chapeu.mp4">
+                        <h3 class="font_first text_center pink">Chapéu Sonoro</h3>
+                    </section>
+                    
+                    <section data-background="img/D.Bolsa_baixa.gif">
+                        <h3 class="font_first text_center pink">Bolsa com sensor de luminosidade</h3>
+                    </section>
+                    
+                    <section data-background="img/H.Gola_baixa.gif">
+                        <h3 class="font_first text_center pink">Gola que infla</h3>
+                    </section>
+                    
+                    <section data-background-video="videos/ChapeuBluetooth.mp4">
+                        <h3 class="font_first text_center pink">Chapéu com som bluetooth</h3>
+                    </section>
+                    
+                    <section data-background="img/I.Tatuagem_baixa.gif">
+                        <h3 class="font_first text_center pink">Tatuagem Condutiva</h3>
+                    </section>
+                    
+                    <section data-background="img/J.Bordado_baixa.gif">
+                        <h3 class="font_first text_center pink">Bordado sensível ao toque</h3>
+                    </section>
+                    
+                    <section data-background="#e6e6e6">
+                        <div>
+                          <img src="img/J.Bordado_baixa.gif" class="width400">
+                        </div>
+					</section>
+                    
+                    <section data-background="#e6e6e6">
+                        <div>
+                          <div class="row">
+                            <div class="col-xs-4 font_second">
+                            </div>
+                            <div class="col-xs-8 font_second">
+                              <p class="font_second font36 text_left uppercase black">Just like the skin, which touches and is touched, clothing can be a new type of skin, which feels and acts.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+					</section>
+                    
+                    <section data-background="#000000">
+                        <p class="uppercase font_second bottom50">Thanks!</p>
+<!--                        <p class="font_first font28">lina@lilo.zone</p>-->
+                        <p class="font_first font28"><a href="?print-pdf">www.nana-kit.com</a></p>
+				    </section>
+                    
+<!--
+                    <section data-background="#000000">
+                        <p>Export to <a href="?print-pdf">PDF</a></p>
+                    </section>
+-->
+
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
